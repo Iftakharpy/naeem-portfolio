@@ -21,7 +21,7 @@ export default function Intro() {
           <img
             src={`${
               import.meta.env.BASE_URL
-            }/assets/personal-imgs/naeem_shah.jpg`}
+            }assets/personal-imgs/naeem_shah.jpg`}
             alt=""
           />
         </div>
@@ -35,7 +35,7 @@ export default function Intro() {
           </h3>
         </div>
         <a href="#portfolio">
-          <img src={`${import.meta.env.BASE_URL}/assets/down.png`} alt="" />
+          <img src={`${import.meta.env.BASE_URL}assets/down.png`} alt="" />
         </a>
       </div>
     </div>

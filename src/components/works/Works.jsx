@@ -6,24 +6,24 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: `${import.meta.env.BASE_URL}/assets/mobile.png`,
+      icon: `${import.meta.env.BASE_URL}assets/mobile.png`,
       title: "Back-end Development",
       desc: "Using Python as the back-end programming language. ",
-      img: `${import.meta.env.BASE_URL}/assets/certificates/mosh-python.PNG`,
+      img: `${import.meta.env.BASE_URL}assets/certificates/mosh-python.PNG`,
     },
     {
       id: "2",
-      icon: `${import.meta.env.BASE_URL}/assets/globe.png`,
+      icon: `${import.meta.env.BASE_URL}assets/globe.png`,
       title: "Front-End Development",
       desc: "Using Java Script as the back-end programming language.",
-      img: `${import.meta.env.BASE_URL}/assets/certificates/mosh-react.PNG`,
+      img: `${import.meta.env.BASE_URL}assets/certificates/mosh-react.PNG`,
     },
     {
       id: "3",
-      icon: `${import.meta.env.BASE_URL}/assets/writing.png`,
+      icon: `${import.meta.env.BASE_URL}assets/writing.png`,
       title: "Data Base",
       desc: "MySQL is used by me.",
-      img: `${import.meta.env.BASE_URL}/assets/certificates/mosh-sql.PNG`,
+      img: `${import.meta.env.BASE_URL}assets/certificates/mosh-sql.PNG`,
     },
   ];
 
@@ -60,13 +60,13 @@ export default function Works() {
         ))}
       </div>
       <img
-        src={`${import.meta.env.BASE_URL}/assets/arrow.png`}
+        src={`${import.meta.env.BASE_URL}assets/arrow.png`}
         className="arrow left"
         alt=""
         onClick={() => handleClick("left")}
       />
       <img
-        src={`${import.meta.env.BASE_URL}/assets/arrow.png`}
+        src={`${import.meta.env.BASE_URL}assets/arrow.png`}
         className="arrow right"
         alt=""
         onClick={() => handleClick()}

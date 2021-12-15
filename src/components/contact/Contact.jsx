@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src={`${import.meta.env.BASE_URL}/assets/shake.svg`} alt="" />
+        <img src={`${import.meta.env.BASE_URL}assets/shake.svg`} alt="" />
       </div>
       <div className="right">
         <h2>Contact.</h2>
